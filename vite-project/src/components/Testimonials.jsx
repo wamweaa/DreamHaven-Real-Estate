@@ -14,7 +14,7 @@ function Testimonials({ testimonials }) {
   };
   return (
     <div className="testimonial">
-      <h2>Testimonials</h2>
+      <h2>Testimonial</h2>
       <div className="testimonial">
         <p>{testimonials[currentTestimonialIndex].text}</p>
         <p>{testimonials[currentTestimonialIndex].name}</p>
